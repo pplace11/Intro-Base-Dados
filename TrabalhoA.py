@@ -1,6 +1,6 @@
 nome, idade, cores = [], [], []
 count = 0
-contador = 'azul'
+contador = 'Azul'
 idademax = '20'
 countidade = 0
 for user in range(3):
