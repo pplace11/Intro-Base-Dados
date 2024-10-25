@@ -14,9 +14,19 @@ cursor.execute('''
  INSERT INTO marcas(marca, modelos)
  VALUES('Opel', 'Silverato')
 ''')
-
+cursor.execute('''
+ INSERT INTO marcas(marca, modelos)
+ VALUES('BMW', 'X3')
+''')
+cursor.execute('''
+ INSERT INTO marcas(marca, modelos)
+ VALUES('VW', 'Id.4')
+''')
+cursor.execute('''
+ INSERT INTO marcas(marca, modelos)
+ VALUES('VW', 'Id.5')
+''')
 conexao.commit()
-
 cursor.execute('SELECT * FROM marcas')
 resultado = cursor.fetchall()
 for linha in resultado:
