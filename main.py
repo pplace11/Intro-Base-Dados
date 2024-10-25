@@ -1,3 +1,4 @@
+#Trabalho 1
 name = input('Qual é o teu nome? ')
 idade = input('Qual é a sua idade? ')
 consulta = input('Qual é a sua consulta? ')
