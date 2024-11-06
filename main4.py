@@ -1,6 +1,7 @@
 import sqlite3
 conexao = sqlite3.connect('loja.db')
 cursor = conexao.cursor()
+
 cursor.execute(''' DROP TABLE IF EXISTS clientes ''')
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS clientes (
