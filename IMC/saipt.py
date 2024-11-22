@@ -24,7 +24,7 @@ def resgistrar_usuario(nome, idade, altura, peso):
     print(f"Usuário {nome} registrado com sucesso!")
 
 #Soliciatar dados
-for i in range(1):
+for i in range(5):
     print(f"\nInsira os dados do usuário {i+1}:")
     nome = input("Diga o seu nome: ")
     idade = int(input("Diga a sua idade: "))
